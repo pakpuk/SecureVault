@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:password_manager_app/providers/password_provider.dart';
 import 'package:password_manager_app/providers/category_provider.dart';
-
 import 'package:password_manager_app/theme/text_manager.dart';
 import 'package:password_manager_app/view/screens/categorie_screen.dart';
 import 'package:password_manager_app/view/widgets/Categorie_widget.dart';
