@@ -49,8 +49,8 @@ class CategoryCard extends StatelessWidget {
             Text(
               category.name,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                fontWeight: FontWeight.w600,
-              ),
+                    fontWeight: FontWeight.w600,
+                  ),
               textAlign: TextAlign.center,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -59,8 +59,8 @@ class CategoryCard extends StatelessWidget {
             Text(
               '$passwordCount élément${passwordCount > 1 ? 's' : ''}',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                color: Colors.grey.shade600,
-              ),
+                    color: Colors.grey.shade600,
+                  ),
             ),
           ],
         ),
